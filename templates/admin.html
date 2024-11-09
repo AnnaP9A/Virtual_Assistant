@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='help.css') }}">
+    <title>Віртуальний асистент - Адміністрування</title>
+</head>
+<body>
+    <header>
+        <h1>Віртуальний асистент</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Головна</a></li>
+                <li><a href="/about">Про нас</a></li>
+                <li><a href="/help">Допомога</a></li>
+                <li><a href="/contact">Контакти</a></li>
+                <li><a href="/admin">Адміністрування</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="help-section">
+            <h2>Адміністрування</h2>
+            <form action="{{ url_for('admin') }}" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="file">Оберіть файл CSV:</label>
+                    <input type="file" id="file" name="file">
+                </div>
+                <div class="button-group">
+                    <button type="submit">Завантажити</button>
+                </div>
+            </form>
+
+            <div class="button-group">
+                <a href="{{ url_for('generate_report') }}" class="button">Згенерувати звіт</a>
+            </div>
+
+            {% if messages %}
+            <div class="messages">
+                <h3>Повідомлення</h3>
+                <ul>
+                    {% for message in messages %}
+                    <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Віртуальний асистент. Усі права захищені.
+    </footer>
+</body>
+</html>

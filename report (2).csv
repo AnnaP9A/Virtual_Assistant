@@ -1,0 +1,78 @@
+Transition,Keywords,Response
+Understand,data analysis,Аналіз даних завершено.
+Understand,data processing,Опрацювання даних в процесі.
+Understand,information extraction,Екстракція інформації в процесі.
+Understand,часті питання користувачів,No response found
+Generate,response generation,Генерація відповіді в процесі.
+Generate,finalizing,Завершення процесу.
+Generate,output generation,Генерація вихідних даних в процесі.
+Error,error handling,Обробка помилки: {error}
+Error,debugging,Відлагодження в процесі: {error}
+Error,troubleshooting,Вирішення проблеми: {error}
+Review,reviewing results,Перегляд результатів.
+Review,assessment,Оцінка в процесі.
+Optimize,optimization,Оптимізація в процесі.
+Optimize,improvement,Покращення в процесі.
+Explore,exploration,Дослідження в процесі.
+Explore,discovery,Відкриття в процесі.
+Interpret,interpretation,Інтерпретація в процесі.
+Interpret,analysis,No response found
+Validate,validation,Валідація в процесі.
+Validate,verification,Підтвердження в процесі.
+Implement,implementation,Впровадження в процесі.
+Implement,deployment,Розгортання в процесі.
+Integrate,integration,Інтеграція в процесі.
+Integrate,incorporation,Включення в процесі.
+Configure,configuration,Конфігурація в процесі.
+Configure,setup,Налаштування в процесі.
+Monitor,monitoring,Моніторинг в процесі.
+Monitor,observation,Спостереження в процесі.
+Adapt,adaptation,Адаптація в процесі.
+Adapt,adjustment,Коригування в процесі.
+Assess,assessment,Оцінка в процесі.
+Assess,evaluation,Оцінка в процесі.
+Document,documentation,Документація в процесі.
+Document,writing,Написання в процесі.
+Collaborate,collaboration,Співпраця в процесі.
+Collaborate,teamwork,Командна робота в процесі.
+Consult,consultation,Консультація в процесі.
+Consult,advice,Порада в процесі.
+Design,design,Дизайн в процесі.
+Design,planning,Планування в процесі.
+Execute,execution,Виконання в процесі.
+Execute,performing,Виконання в процесі.
+Simulate,simulation,Симуляція в процесі.
+Simulate,modeling,Моделювання в процесі.
+Analyze,analysis,No response found
+Analyze,investigation,Розслідування в процесі.
+Maintain,maintenance,Обслуговування в процесі.
+Maintain,sustaining,Забезпечення в процесі.
+Respond,response,Реакція в процесі.
+Respond,reaction,Реакція в процесі.
+Resolve,resolution,Вирішення в процесі.
+Resolve,solution,Рішення в процесі.
+Report,reporting,Звітність в процесі.
+Report,publishing,Публікація в процесі.
+Innovate,innovation,Інновація в процесі.
+Innovate,creativity,Творчість в процесі.
+Educate,education,Освіта в процесі.
+Educate,training,Тренування в процесі.
+Protect,protection,Захист в процесі.
+Protect,security,Безпека в процесі.
+Operate,operation,Операція в процесі.
+Operate,functioning,Функціонування в процесі.
+Prioritize,prioritization,Пріоритетизація в процесі.
+Prioritize,ranking,Ранжування в процесі.
+greeting,hello,Hello! How can I help you today?
+greeting,hi,Hi there! How can I assist you today?
+greeting,hey,Hey! What do you need help with?
+greeting,hi,Hi there! How can I assist you today?
+greeting,hey,Hey! What do you need help with?
+farewell,bye,Goodbye! Have a great day!
+farewell,goodbye,Take care! See you next time.
+farewell,see you,See you soon! Stay safe.
+farewell,goodbye,Take care! See you next time.
+farewell,see you,See you soon! Stay safe.
+thanks,thank you,You're welcome!
+thanks,thanks,No problem
+thanks,thanks,No problem

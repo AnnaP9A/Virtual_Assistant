@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Віртуальний асистент</title>
+</head>
+<body>
+    <header>
+        <h1>Віртуальний асистент</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Головна</a></li>
+                <li><a href="/about">Про нас</a></li>
+                <li><a href="/help">Допомога</a></li>
+                <li><a href="/contact">Контакти</a></li>
+                <li><a href="/admin">Адміністрування</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-section">
+            <h2>Запит до асистента</h2>
+            <form id="userInputForm" method="POST" action="/process_input">
+                <label for="user_input">Введіть ваш запит:</label><br>
+                <input type="text" id="user_input" name="user_input" required><br><br>
+                <div class="button-group">
+                    <button type="submit">Надіслати</button>
+                    <button type="button" onclick="clearForm()">Очистити</button>
+                </div>
+                <div class="button-group">
+                    <button type="button" onclick="setInput('Як налаштувати асистента?')">Налаштування асистента</button>
+                    <button type="button" onclick="setInput('Основні функції та можливості')">Основні функції</button>
+                    <button type="button" onclick="setInput('Часті питання користувачів')">Часті питання</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="responseContainer">
+            <h2>Відповідь</h2>
+            <p id="responseText"></p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Віртуальний асистент. Усі права захищені.
+    </footer>
+
+    <script>
+        const form = document.getElementById('userInputForm');
+        const responseText = document.getElementById('responseText');
+
+        form.addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const formData = new FormData(form);
+            const userInput = formData.get('user_input');
+
+            const response = await fetch('/process_input', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: `user_input=${encodeURIComponent(userInput)}`
+            });
+
+            const responseData = await response.json();
+            responseText.textContent = responseData.response;
+        });
+
+        function setInput(text) {
+            const userInput = document.getElementById('user_input');
+            userInput.value = text;
+        }
+
+        function clearForm() {
+            document.getElementById('user_input').value = ''; // Очистка поля ввода
+            responseText.textContent = ''; // Очистка контейнера с ответом
+        }
+    </script>
+</body>
+</html>

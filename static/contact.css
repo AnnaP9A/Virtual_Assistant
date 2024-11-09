@@ -1,0 +1,190 @@
+/* contact.css */
+
+/* Основные стили для текстов */
+
+/* Общие стили для body и заголовков */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeInDown 0.8s ease-out;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Анимация для заголовка */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Навигационное меню */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 5px 15px;
+    position: relative;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+    background-color: white;
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* Основной контент */
+main {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Секция контактов */
+.contact-section {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 1s ease-out;
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Информация о контактах */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-info div {
+    margin: 0 20px;
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Вставленная карта Google */
+iframe {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Подвал */
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #ff6347;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.8s ease-out;
+}
+
+/* Анимация для пунктов меню */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Анимация для основного контента */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

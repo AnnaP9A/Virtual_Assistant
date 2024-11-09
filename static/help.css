@@ -1,0 +1,76 @@
+/* help.css */
+
+/* Основной контент */
+.help-section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-out;
+}
+
+.help-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.help-section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Отступ между абзацами */
+}
+
+.help-section ul {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.help-section ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Дополнительные стили для раздела "Часті питання користувачів" */
+.faq-section {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out;
+}
+
+.faq-section h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.faq-section ul {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.faq-section ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Анимация появления контента */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

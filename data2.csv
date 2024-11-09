@@ -1,0 +1,6 @@
+transition,keyword,response
+greeting,hi,Hi there! How can I assist you today?
+greeting,hey,Hey! What do you need help with?
+farewell,goodbye,Take care! See you next time.
+farewell,see you,See you soon! Stay safe.
+thanks,thanks,No problem, happy to help!

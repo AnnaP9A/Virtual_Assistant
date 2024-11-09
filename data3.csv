@@ -1,0 +1,6 @@
+transition,keyword,response
+order,order pizza,Your pizza order is being processed!
+order,order food,We are preparing your food order.
+delivery,track order,You can track your order here: [link].
+delivery,delivery status,Your delivery is on its way!
+feedback,give feedback,We'd love to hear your feedback. Please share it here: [link].

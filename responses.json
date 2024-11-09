@@ -1,0 +1,218 @@
+{
+    "transitions": {
+        "Understand": [
+            "data analysis",
+            "data processing",
+            "information extraction",
+            "часті питання користувачів"
+        ],
+        "Generate": [
+            "response generation",
+            "finalizing",
+            "output generation"
+        ],
+        "Error": [
+            "error handling",
+            "debugging",
+            "troubleshooting"
+        ],
+        "Review": [
+            "reviewing results",
+            "assessment"
+        ],
+        "Optimize": [
+            "optimization",
+            "improvement"
+        ],
+        "Explore": [
+            "exploration",
+            "discovery"
+        ],
+        "Interpret": [
+            "interpretation",
+            "analysis"
+        ],
+        "Validate": [
+            "validation",
+            "verification"
+        ],
+        "Implement": [
+            "implementation",
+            "deployment"
+        ],
+        "Integrate": [
+            "integration",
+            "incorporation"
+        ],
+        "Configure": [
+            "configuration",
+            "setup"
+        ],
+        "Monitor": [
+            "monitoring",
+            "observation"
+        ],
+        "Adapt": [
+            "adaptation",
+            "adjustment"
+        ],
+        "Assess": [
+            "assessment",
+            "evaluation"
+        ],
+        "Document": [
+            "documentation",
+            "writing"
+        ],
+        "Collaborate": [
+            "collaboration",
+            "teamwork"
+        ],
+        "Consult": [
+            "consultation",
+            "advice"
+        ],
+        "Design": [
+            "design",
+            "planning"
+        ],
+        "Execute": [
+            "execution",
+            "performing"
+        ],
+        "Simulate": [
+            "simulation",
+            "modeling"
+        ],
+        "Analyze": [
+            "analysis",
+            "investigation"
+        ],
+        "Maintain": [
+            "maintenance",
+            "sustaining"
+        ],
+        "Respond": [
+            "response",
+            "reaction"
+        ],
+        "Resolve": [
+            "resolution",
+            "solution"
+        ],
+        "Report": [
+            "reporting",
+            "publishing"
+        ],
+        "Innovate": [
+            "innovation",
+            "creativity"
+        ],
+        "Educate": [
+            "education",
+            "training"
+        ],
+        "Protect": [
+            "protection",
+            "security"
+        ],
+        "Operate": [
+            "operation",
+            "functioning"
+        ],
+        "Prioritize": [
+            "prioritization",
+            "ranking"
+        ],
+        "greeting": [
+            "hello",
+            "hi",
+            "hey",
+            "hi",
+            "hey"
+        ],
+        "farewell": [
+            "bye",
+            "goodbye",
+            "see you",
+            "goodbye",
+            "see you"
+        ],
+        "thanks": [
+            "thank you",
+            "thanks",
+            "thanks"
+        ]
+    },
+    "responses": {
+        "data analysis": "Аналіз даних завершено.",
+        "data processing": "Опрацювання даних в процесі.",
+        "information extraction": "Екстракція інформації в процесі.",
+        "response generation": "Генерація відповіді в процесі.",
+        "finalizing": "Завершення процесу.",
+        "output generation": "Генерація вихідних даних в процесі.",
+        "error handling": "Обробка помилки: {error}",
+        "debugging": "Відлагодження в процесі: {error}",
+        "troubleshooting": "Вирішення проблеми: {error}",
+        "reviewing results": "Перегляд результатів.",
+        "assessment": "Оцінка в процесі.",
+        "optimization": "Оптимізація в процесі.",
+        "improvement": "Покращення в процесі.",
+        "exploration": "Дослідження в процесі.",
+        "discovery": "Відкриття в процесі.",
+        "interpretation": "Інтерпретація в процесі.",
+        "validation": "Валідація в процесі.",
+        "verification": "Підтвердження в процесі.",
+        "implementation": "Впровадження в процесі.",
+        "deployment": "Розгортання в процесі.",
+        "integration": "Інтеграція в процесі.",
+        "incorporation": "Включення в процесі.",
+        "configuration": "Конфігурація в процесі.",
+        "setup": "Налаштування в процесі.",
+        "monitoring": "Моніторинг в процесі.",
+        "observation": "Спостереження в процесі.",
+        "adaptation": "Адаптація в процесі.",
+        "adjustment": "Коригування в процесі.",
+        "evaluation": "Оцінка в процесі.",
+        "documentation": "Документація в процесі.",
+        "writing": "Написання в процесі.",
+        "collaboration": "Співпраця в процесі.",
+        "teamwork": "Командна робота в процесі.",
+        "consultation": "Консультація в процесі.",
+        "advice": "Порада в процесі.",
+        "design": "Дизайн в процесі.",
+        "planning": "Планування в процесі.",
+        "execution": "Виконання в процесі.",
+        "performing": "Виконання в процесі.",
+        "simulation": "Симуляція в процесі.",
+        "modeling": "Моделювання в процесі.",
+        "investigation": "Розслідування в процесі.",
+        "maintenance": "Обслуговування в процесі.",
+        "sustaining": "Забезпечення в процесі.",
+        "response": "Реакція в процесі.",
+        "reaction": "Реакція в процесі.",
+        "resolution": "Вирішення в процесі.",
+        "solution": "Рішення в процесі.",
+        "reporting": "Звітність в процесі.",
+        "publishing": "Публікація в процесі.",
+        "innovation": "Інновація в процесі.",
+        "creativity": "Творчість в процесі.",
+        "education": "Освіта в процесі.",
+        "training": "Тренування в процесі.",
+        "protection": "Захист в процесі.",
+        "security": "Безпека в процесі.",
+        "operation": "Операція в процесі.",
+        "functioning": "Функціонування в процесі.",
+        "prioritization": "Пріоритетизація в процесі.",
+        "ranking": "Ранжування в процесі.",
+        "default": "Вибачте, я не можу допомогти з цим.",
+        "hello": "Hello! How can I help you today?",
+        "bye": "Goodbye! Have a great day!",
+        "thank you": "You're welcome!",
+        "hi": "Hi there! How can I assist you today?",
+        "hey": "Hey! What do you need help with?",
+        "goodbye": "Take care! See you next time.",
+        "see you": "See you soon! Stay safe.",
+        "thanks": "No problem"
+    }
+}

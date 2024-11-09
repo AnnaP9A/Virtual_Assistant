@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='contact.css') }}">
+    <title>Контакти - Віртуальний асистент</title>
+</head>
+<body>
+    <header>
+        <h1>Віртуальний асистент</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Головна</a></li>
+                <li><a href="/about">Про нас</a></li>
+                <li><a href="/help">Допомога</a></li>
+                <li><a href="/contact">Контакти</a></li>
+                <li><a href="/admin">Адміністрування</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+     <div class="contact-section">
+    <h2>Контакти</h2>
+    <p>Зв'яжіться з нами, щоб отримати додаткову інформацію або відповісти на ваші запитання. Ми завжди готові допомогти вам.</p>
+
+    <div class="contact-info">
+        <div>
+            <h3>Адреса</h3>
+            <p>м. Київ, вул. Шевченка 1</p>
+        </div>
+        <div>
+            <h3>Телефон</h3>
+            <p>+380 12 345 6789</p>
+        </div>
+    </div>
+
+    <p>Наші працівники готові відповісти на ваші дзвінки з понеділка по п'ятницю, з 9:00 до 17:00.</p>
+
+    <!-- Вставка карты Google с указанием адреса -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25446.510188648344!2d30.51611891212282!3d50.435913527703274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef75bfe16d7%3A0x2f55acded6c6a2f2!2z0LLRg9C70LjRhtGPINCQ0LvQvtC-0YDRjyDRg9C7LiwgMSwg0JrRgNCw0YDQsNC90LAsIDMwMDAw!5e0!3m2!1sen!2sua!4v1624329870320!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+
+
+    </main>
+
+    <footer>
+        &copy; 2024 Віртуальний асистент. Усі права захищені.
+    </footer>
+</body>
+</html>

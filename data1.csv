@@ -1,0 +1,4 @@
+transition,keyword,response
+greeting,hello,Hello! How can I help you today?
+farewell,bye,Goodbye! Have a great day!
+thanks,thank you,You're welcome!
